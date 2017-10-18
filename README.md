@@ -1,2 +1,2 @@
 # learn
-Various examples / exercises 
+Various examples / exercises from books, tutorials, and courses.

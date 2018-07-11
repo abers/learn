@@ -11,6 +11,7 @@ from PyQt5.QtWidgets import (QAction, QActionGroup, QApplication,
                              QMainWindow, QMessageBox, QSpinBox)
 from PyQt5.QtGui import (QIcon, QImage, QImageReader, QImageWriter, QKeySequence, QPixmap)
 from PyQt5.QtPrintSupport import QPrinter, QPrintDialog
+#import qdarkstyle
 
 # Internals
 #import helpform
@@ -442,6 +443,7 @@ class MainWindow(QMainWindow):
 
 def main():
     app = QApplication(sys.argv)
+#    app.setStyleSheet(qdarkstyle.load_stylesheet_pyqt5())
     app.setOrganizationName("Qtrac Ltd.")
     app.setOrganizationDomain("qtrac.eu")
     app.setApplicationName("Image Changer")
